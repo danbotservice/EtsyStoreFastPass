@@ -62,7 +62,7 @@ export async function startAuthFlow(): Promise<void> {
         throw new Error('No authorization code received');
       }
 
-      if (returnedState !== authState?.state) {
+      if (!authState || returnedState !== authState.state) {
         throw new Error('State mismatch - possible CSRF attack');
       }
 
