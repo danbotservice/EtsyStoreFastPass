@@ -2,6 +2,19 @@
 
 An automation tool to quickly add products to your Etsy shop using the Etsy API v3. This tool handles OAuth 2.0 authentication and provides a simple interface for bulk product uploads.
 
+## 🚀 Quick Deploy to Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template)
+
+The easiest way to use this tool is to deploy it to Railway. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+**Quick steps:**
+1. Push this repo to GitHub
+2. Connect to Railway and deploy
+3. Set environment variables (ETSY_API_KEY, ETSY_API_SECRET, ETSY_SHOP_ID)
+4. Visit your Railway URL and connect to Etsy
+5. Start adding products via the web interface or API
+
 ## Features
 
 - 🔐 OAuth 2.0 authentication with Etsy
